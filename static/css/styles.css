@@ -1,0 +1,89 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cbffff; /* Light blue-gray background */
+}
+
+.container {
+    max-width: 1200px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #2980b9; /* Blue header */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add spacing */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #868d1b; /* White navbar */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    padding: 10px 20px; /* Add padding */
+    margin-bottom: 20px; /* Add spacing */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block; /* Display items in a row */
+    margin: 0 10px; /* Add spacing between items */
+}
+
+.navbar a {
+    color: #2980b9; /* Blue text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar a:hover {
+    color: #1a5276; /* Darker blue on hover */
+}
+
+/* Card styles */
+.card {
+    background-color: #fff; /* White cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    padding: 20px;
+    margin-bottom: 20px; /* Add spacing between cards */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #2980b9; /* Blue footer */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.footer a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer a:hover {
+    color: #1a5276; /* Darker blue on hover */
+}
